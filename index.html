@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/jp_foto.jpg" type="image/x-icon">
+
+    <title>Portfólio | João Cardoso</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">João Cardoso</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Ínicio</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projetos</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contactos</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="JP-CV.pdf" target="_blank" download class="btn no-link-styles">
+                Download CV <i class="uil uil-file-alt"></i>
+            </a>
+        </div>
+        
+        <style>
+            .no-link-styles {
+                text-decoration: none;  /* Removes the underline */
+                color: inherit;         /* Inherits the color from the button */
+            }
+            .no-link-styles:hover {
+                text-decoration: none;  /* Ensures no underline on hover */
+            }
+        </style>
+        
+        
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>João Cardoso</span>
+            </div>
+            <div class="featured-name">
+                <p>Sou <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Apaixonado pela área da Geografia com experiencia em GIS e no terreno, adoro recolher e criar soluções 
+                    para o desenvovimento urbano sustentável.
+            
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="#contact" class="btn blue-btn">Fale comigo</a>
+                <a href="JP-CV.pdf" target="_blank" download class="btn no-link-styles">
+                    Download CV <i class="uil uil-file-alt"></i>
+                </a>
+                <style>
+                    a.blue-btn {
+                      text-decoration: none;
+                    }
+                  </style>
+            </div>
+            <div class="social_icons">
+                
+                <div class="footer-social-icons">
+                    <a href="https://github.com/JoaoParadaCardoso" target="_blank" class="icon no-link-styles">
+                        <i class="uil uil-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/joão--cardoso" target="_blank" class="icon no-link-styles">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+                
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/jp_foto.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>Sobre mim</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>Perfil profissional</h3>
+                    <p>Tenho bastante experiência em ferramentas de análise espacial como QGis e ArcGis, bem como algumas bases 
+                        em linguagens de programação (Python), base de dados (PostgreSQL) que complemetam o tratamento de dados geoespaciais.
+                       Além de tratammento de dados, ja eecutei trabahos de GPS, Mobie Mapping, videografia e topografia.
+                    </p>
+                    <div class="about-btn">
+                        <br><br>
+                        <a href="JP-CV.pdf" target="_blank" download class="btn no-link-styles">
+                            Download CV <i class="uil uil-import"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Visualizadores e gestão de dados geoespaciais</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>QGis</span>
+                        <span>Arcgis</span>
+                        <span>R Studio</span>
+    
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Equipamentos
+                            em contacto no terreno
+                        </h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>GPS</span>
+                        <span>Estação total</span>
+                        <span>Nívelamento geometrico</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Python</span>
+                         </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projetos</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Cartografia topográfica</h3>
+                <label>45+ Projetos finalizados</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Experiência em terreno</h3>
+                <label>7 Projetos finalizados</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Experiencia</h3>
+                <label>3+ anos na área</label>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Contacte-me</h1>
+            <span>Tem algum projeto em mente, contacte-me para ajudá-lo</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Aqui tem os meus contactos <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: joaoparadacardoso@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +351 926 095 124</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Nome">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Messagem"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Enviar <i class="uil uil-message"></i></button>
+                        </div>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>João Cardoso .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Ínicio</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">Sobre</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projetos</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contactos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://github.com/JoaoParadaCardoso" target="_blank" class="icon no-link-styles">
+                <i class="uil uil-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/joão--cardoso" target="_blank" class="icon no-link-styles">
+                <i class="uil uil-linkedin-alt"></i>
+            </a>
+        </div>
+        
+        <style>
+            .no-link-styles {
+                text-decoration: none;  /* Removes the underline */
+                color: inherit;         /* Inherits the color from the surrounding elements */
+            }
+            .no-link-styles:hover {
+                text-decoration: none;  /* Ensures no underline on hover */
+            }
+        </style>
+        
+        
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">João Cardoso</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
